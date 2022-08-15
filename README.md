@@ -2,7 +2,7 @@
 South African High School Question Paper ( Search engine and Papers Scrapper).
 With The Power Of OPENAI To Help Answer Student's Questions in a Chat format.
 
-<h2>Screenshots:</h2></br>
+<h2>Screenshots</h2></br>
 Landing Page</br>
 ![FillTheGapsScreen](https://user-images.githubusercontent.com/13138647/184584287-74562f4e-e77c-4706-a946-b5faa35ec9ee.PNG)
 
