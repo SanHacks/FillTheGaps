@@ -1,8 +1,8 @@
 <?php
-$host = '127.0.0.1';
-$db   = 'fillthegap';
-$user = 'root';
-$pass = '';
+$host = 'YOUR HOST';
+$db   = 'YOUR DB';
+$user = 'YOUR USERNAME';
+$pass = 'YOUR PASSWORD';
 $port = "3306";
 $charset = 'utf8mb4';
 
