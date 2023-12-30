@@ -1,14 +1,10 @@
 {
     "name": "sanbytez/fill-the-gaps",
-    "description": "South African Hifgh School Question Paper",
+    "description": "South African High School Question Paper",
     "type": "project",
     "require": {
-        "php": ">=7.4",
-        "openai-php/client": "*",
-        "symfony/yaml": "6.4.x-dev",
-        "ext-pdo_mysql": "*",
-        "symfony/http-client": "6.4.x-dev",
-        "nyholm/psr7": "^1.8@dev"
+        "php": "*",
+        "ext-pdo_mysql": "*"
     },
     "license": "MIT",
     "authors": [
@@ -16,10 +12,5 @@
             "name": "Gundo San Sifhufhi"
         }
     ],
-    "minimum-stability": "dev",
-    "config": {
-        "allow-plugins": {
-            "php-http/discovery": true
-        }
-    }
+    "minimum-stability": "dev"
 }
