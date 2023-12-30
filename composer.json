@@ -12,5 +12,10 @@
             "name": "Gundo San Sifhufhi"
         }
     ],
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
+    }
 }
