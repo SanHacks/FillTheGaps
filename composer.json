@@ -1,21 +1,14 @@
 {
-    "name": "sanbytez/fill-the-gaps",
-    "description": "South African High School Question Paper",
+    "name": "gundo/fill-the-gaps",
     "type": "project",
-    "require": {
-        "php": "*",
-        "ext-pdo_mysql": "*"
-    },
     "license": "MIT",
     "authors": [
         {
-            "name": "Gundo San Sifhufhi"
+            "name": "Gundo Sifhufhi"
         }
     ],
-    "minimum-stability": "dev",
-    "config": {
-        "allow-plugins": {
-            "php-http/discovery": true
-        }
+    "require": {
+        "ext-pdo_mysql": "*",
+        "ext-pdo": "*"
     }
 }

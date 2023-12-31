@@ -4,10 +4,7 @@ error_reporting(1);
  session_start();
 	//All QUERIES REQUIRED ON LANDING PAGE
 	include"connect.php";	
-		
 
-	
-	// Services
 	$service = $pdo->prepare("SELECT * FROM subjects  ORDER BY timestamp ASC");
 	$service->execute();
 	$thesubjects = $service->fetchAll();
@@ -54,17 +51,11 @@ error_reporting(1);
 		$params = array("$subject","$grade","%$year%");
 		
 		}
-	***/
-		
-		
-		
-			
+	***/	
 		$searchs = "SELECT * FROM papers WHERE id = ?";
 		$stmt = $pdo->prepare($searchs);
 		$stmt->execute([$theid]);
 		$QP = $stmt->fetchAll();
-		
-		
 	}
 	
 	
