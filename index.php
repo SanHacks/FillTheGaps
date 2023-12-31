@@ -1,13 +1,19 @@
+
 <?php
-error_reporting(0);
+error_reporting(1);
  session_start();
 	//All QUERIES REQUIRED ON LANDING PAGE
-	include"connect.php";	
-	$service = $pdo->prepare("SELECT * FROM subjects  ORDER BY timestamp ASC");
-	$service->execute();
-	$thesubjects = $service->fetchAll();
-?>
+	// include"connect.php";	
+		
 
+	
+	// // Services
+	// $service = $pdo->prepare("SELECT * FROM subjects  ORDER BY timestamp ASC");
+	// $service->execute();
+	// $thesubjects = $service->fetchAll();
+	
+
+?>
 <!DOCTYPE html>
 <html>
 
